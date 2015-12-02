@@ -1,0 +1,22 @@
+table {
+	width: 80%;
+	border: 1px solid hsla(147, 70%, 85%, 89%);
+	text-align: left; 
+    border-collapse: collapse;
+}
+th {
+	font-weight: bold;
+	background-color: hsla(147, 96%, 95%, 1.0);
+	border-bottom: 1px solid #cef; }
+td,th {
+	padding: 4px 5px; }
+
+tr:nth-child(even) {
+  background-color: hsla(147, 96%, 95%, 1.0);;
+}
+
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
